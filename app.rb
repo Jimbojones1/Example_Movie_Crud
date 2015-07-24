@@ -10,12 +10,12 @@ get '/' do
   movie("CaddyShack", "1992", "Bill Murray is a Gopher Killer... RAH RAH RAH!")
 end
 
-get '/api/movie_name1' do
+get '/api/Rambo' do
   cross_origin
   movie("Rambo", "1998", "Slyvester Kills EvERYONENNENNNEE... AHHH BITCHEs DIeeee!")
 end
 
-get '/api/movie_name2' do
+get '/api/Sandlot' do
   cross_origin
   movie("Sandlot", "1994", "You PLAY ball Like A GIRL")
 end
